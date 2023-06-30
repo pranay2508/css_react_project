@@ -11,6 +11,8 @@ const CourseInput = props => {
     if(event.target.value.trim().length >0) {
       setIsValid(true);
     }
+    //                                                              isvalid => true initial 
+                                                                    // 
     // console.log(event.target.value);
     setEnteredValue(event.target.value);
   };
