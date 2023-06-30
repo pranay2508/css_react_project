@@ -26,8 +26,8 @@ const CourseInput = props => {
 
   return (
     <form onSubmit={formSubmitHandler}>
-    {/*  `` => this are backticks known as templete literal */}
-      <div className={`form-control ${ !isValid ? 'inValid' : '' }`}>
+    {/*  `` => this are backticks known as templete literal , this contructs the string */}
+      <div className={` form-control ${!isValid ? 'invalid' : ''}`}>
         <label>Course Goal</label>
         <input type="text" onChange={goalInputChangeHandler} />
       </div>
